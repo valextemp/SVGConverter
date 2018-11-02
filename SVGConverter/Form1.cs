@@ -32,6 +32,7 @@ namespace SVGConverter
         {
             FolderBrowserDialog folderBrowserDialog1 = new FolderBrowserDialog();
             string dirName;
+            // Список файлов
             FileInfo[] files;
 
             if (folderBrowserDialog1.ShowDialog() == DialogResult.OK)
